@@ -1,0 +1,115 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(173, 252, 173);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.start{
+    position:absolute;
+    top:2.3rem;
+    left:7rem;
+    width: 9rem;
+    background-color:rgb(166, 166, 247);
+    color: whitesmoke;
+    letter-spacing: 0.1rem;
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+
+.game-container{
+    border: 3px solid rgb(141, 130, 130);
+     width: 99%;
+     height: 70%;
+     display: flex; 
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: center;
+       padding: 3px;    
+    }
+.round,.time{
+    
+    position:absolute;
+    top:6.8rem;
+    text-transform: capitalize;
+}
+
+.round{
+    left: 4.5rem;
+}
+
+.time{
+    left: 15rem;
+}
+
+.player2-container,.player1-container{
+    width: 10rem;
+    height: 10rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+}
+
+.player1-container{
+        background-color:rgb(253, 230, 219);
+        border: 3px solid red;     
+    }
+    .player2-container{
+        background-color:rgb(218, 236, 247);
+        border: 3px solid blue;
+        
+    }
+
+.shoot1,.shoot2,.btn{
+    background-color:rgb(166, 166, 247);
+    width: 7rem;
+    color: whitesmoke;
+    text-align: center;
+    border-radius: 5px;
+    font-weight: bold;
+    letter-spacing: 0.1rem;
+    text-transform: capitalize;
+    user-select: none;
+}
+
+
+.btn{
+    letter-spacing: 2px;    
+}
+
+.game-container,.round, .time{
+
+    opacity: 1;
+}
+
+.show{
+    opacity: 1;
+    
+}
+
+.start,.shoot1,.shoot2{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
